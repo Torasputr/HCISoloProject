@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,600&display=swap%27'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li:hover {
+    color: black;
+    transition: 0.6s;
+    background-color: rgb(69, 194, 69);
+}
+
+
+.section1 {
+    height: 55vh;
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.content1 {
+    min-height: 55vh;
+    color: white;
+    position: absolute;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    top: 375px;
+}
+
+
+.section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+}
+
+.section3 {
+    padding-top: 50px;
+    height: 300px;
+    max-width: 100%;
+    background-image: url(images/Constellation.jpg);
+    background-size: cover;
+    display: grid;
+    /* grid-template-rows: min-content; */
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: smooth;
+}
+
+.section3 > img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.planet {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+.planet:hover {
+    filter: grayscale(0%);
+}
+
+.section5 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.section4 {
+    margin-top: 50px;
+    height: 400px;
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.content4 {
+    width: 30%;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.content4 > h3 {
+    padding-top: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #8b95b7;
+    width: 250px;
+    height: 50px;
+    transition: 0.6s;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background: #707893;
+}
+
+.saturn {
+    position: relative;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+
+.saturn:hover {
+    filter: grayscale(0%);
+}
+
+.uranus {
+    position: relative;
+    top: 35px;
+    width: 200px;
+    height: 133.33px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+
+.uranus:hover {
+    filter: grayscale(0%);
+}
+
+footer  {
+    text-align: center;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.twitter {
+    opacity: 0.5;
+    height: 75px;
+}
+
+.twitter:hover {
+    opacity: 100%;
+}
+
+.nasa {
+    opacity: 0.5;
+    height: 57px;
+}
+
+.nasa:hover {
+    opacity: 100%;
+}
+
+.section5 > h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
